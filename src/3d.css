@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #3F51B5;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+    nav li:last-child {
+        margin-right: 0;
+    }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+.hero-image {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .hero-text h1 {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+button2 {
+    background-color: red;
+    color: #ffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+    button2:hover {
+        background-color: green;
+        color: #fff;
+    }
+
+.services {
+    padding: 50px 20px;
+}
+
+    .services h2 {
+        text-align: center;
+    }
+
+    .services ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services li {
+        text-align: center;
+        margin: 20px;
+        max-width: 350px;
+    }
+
+        .services li img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .services li h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .services li p {
+            font-size: 1.2rem;
+        }
+
+.about-us {
+    background-color: #eee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+    .about-us h2 {
+        margin-top: 0;
+    }
+
+.contact-us {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+    .contact-us h2 {
+        margin-top: 0;
+    }
+
+    .contact-us form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .contact-us label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contact-us input,
+    .contact-us textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us button[type="submit"] {
+        background-color: #3F51B5;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.sign-in {
+    text-align: center;
+}
+
+    .sign-in form {
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .sign-in label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .sign-in input[type="email"],
+    .sign-in input[type="password"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
+    .sign-in button {
+        background-color: #ffff;
+        colo: red;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+    .contact a {
+        margin: 0 10px;
+        font-size: 18px;
+        color: #333;
+        text-decoration: none;
+    }
+
+        .contact a:hover {
+            color: #007bff;
+        }
+
+.social-sign-in a {
+    display: inline-block;
+    background-color .contact-us button[type="submit"]:hover
+
+{
+    background-color:

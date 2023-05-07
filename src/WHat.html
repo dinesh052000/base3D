@@ -73,6 +73,16 @@
       margin: 0;
       font-size: 16px;
     }
+    #myDIV {
+  background-color:lightblue;
+  display: inline-block;
+  min-inline-size: 100px;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {min-inline-size: 200px;}
+}
   </style>
 </head>
 <body>
@@ -84,7 +94,9 @@
       <img src="3dprintingasharkyusstock.png">
       <p>3D printing is a process of creating a physical object from a digital model. The process involves layering materials, such as plastic or metal, on top of each other to create a 3-dimensional object. This process is also known as additive manufacturing, as the object is built up layer by layer, rather than being carved out of a block of material.</p>
     </div>
+    <div id="myDIV">
     <h2>How Does 3D Printing Work?</h2>
+    </div>
     <p>The process of 3D printing starts with a digital model, which is created using computer-aided design (CAD) software. This digital model is then sliced into thin layers, which the 3D printer uses as a guide to build the object layer by layer.</p>
     <p>The materials used for 3D printing vary, depending on the desired properties of the final object. Some common materials used for 3D printing include plastics, metals, ceramics, and even living tissue.</p>
     <h2>What Are the Applications of 3D Printing?</h2>
